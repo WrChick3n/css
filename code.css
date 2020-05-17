@@ -1,0 +1,194 @@
+﻿@import "listing_signs";
+.single-wpcm_vehicle .single-featured-image-header {
+  display: none;
+}
+.wpcm_vehicle .wpcm-notice {
+  background: #164161;
+  color: #fff;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.wpcm_vehicle .wpcm-notice h2 {
+  font-size: 2.2em;
+  color: #fff;
+  margin-top: 0;
+}
+.wpcm_vehicle .wpcm-notice a.wpcm-btn-link {
+  color: #fff;
+  text-decoration: underline;
+}
+.wpcm_vehicle .wpcm-notice a.wpcm-btn-link:hover, .wpcm_vehicle .wpcm-notice a.wpcm-btn-link:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+.wpcm_vehicle .wpcm-notice .wpcm-preview-or {
+  padding: 0 0.5em;
+}
+.wpcm_vehicle .posted-on {
+  display: none;
+}
+.wpcm_vehicle .attachment-full, .wpcm_vehicle .entry-thumbnail, .wpcm_vehicle .attachment-post-thumbnail, .wpcm_vehicle .attachment-post-featured-image, .wpcm_vehicle .size-post-featured-image, .wpcm_vehicle .wp-post-image {
+  display: none;
+}
+.wpcm_vehicle .wpcm-vehicle-head {
+  overflow: hidden;
+}
+.wpcm_vehicle .wpcm-images {
+  position: relative;
+  width: 100%;
+}
+.wpcm_vehicle .wpcm-images .wp-post-image {
+  display: block;
+}
+.wpcm_vehicle .wpcm-images img.attachment-wpcm_vehicle_single.wp-post-image {
+  width: 100%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-sold {
+  font-size: 1.5em;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails {
+  width: 100%;
+  padding: 10px 0;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails.wpcm-columns-1 a {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails.wpcm-columns-2 a {
+  width: 47%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails.wpcm-columns-3 a {
+  width: 30%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails.wpcm-columns-4 a {
+  width: 22%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails.wpcm-columns-5 a {
+  width: 17%;
+  margin-left: 1.875%;
+  margin-right: 1.875%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails a img {
+  width: 100%;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails a.first {
+  margin-left: 0;
+}
+.wpcm_vehicle .wpcm-images .wpcm-thumbnails a.last {
+  margin-right: 0;
+}
+.wpcm_vehicle .wpcm-price-wrapper {
+  padding-bottom: 10px;
+}
+.wpcm_vehicle .wpcm-price-wrapper .wpcm-price {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.wpcm_vehicle .wpcm-summary {
+  width: 100%;
+}
+.wpcm_vehicle .wpcm-summary {
+  font-size: 0.9em;
+}
+.wpcm_vehicle .wpcm-summary table {
+  border: 0;
+}
+.wpcm_vehicle .wpcm-summary table th, .wpcm_vehicle .wpcm-summary table td {
+  padding: 0.857em 1.387em;
+  border: 0;
+  border-bottom: 1px dotted #F1F1F1;
+}
+.wpcm_vehicle .wpcm-summary table th {
+  font-weight: bold;
+  padding-left: 0;
+}
+.wpcm_vehicle .wpcm-summary .wpcm-contact {
+  overflow: hidden;
+}
+.wpcm_vehicle .wpcm-summary .wpcm-contact .wpcm-contact-button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.wpcm_vehicle .wpcm-vehicle-content {
+  clear: both;
+  overflow: hidden;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+  padding: 1em 0;
+  overflow: hidden;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.5em;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-data table {
+  width: 100%;
+  margin: 0;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-data table tr th {
+  width: 50%;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-features ul {
+  width: 100%;
+  margin: 0;
+  list-style: none;
+}
+.wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-features ul li {
+  padding: 0.2em 0 0.2em 22px;
+  background: url('../images/frontend-sprite.png') center left no-repeat;
+  box-sizing: border-box;
+}
+/** twentyfifteen compatibility **/
+.twentyfifteen .wpcm_vehicle .wpcm-summary {
+  padding: 0;
+}
+.twentyfifteen .wpcm_vehicle table {
+  border: 0;
+}
+.twentyfifteen .wpcm_vehicle table tr {
+  border: 0;
+}
+.twentyfifteen .wpcm_vehicle table tr th, .twentyfifteen .wpcm_vehicle table tr td {
+  border: 0;
+  border-bottom: 1px dotted #F1F1F1;
+}
+/** MEDIA **/
+@media (min-width: 768px) {
+  .wpcm_vehicle .wpcm-vehicle-head .wpcm-images {
+    float: left;
+    width: 55%;
+  }
+  .wpcm_vehicle .wpcm-vehicle-head .wpcm-summary {
+    float: right;
+    width: 41%;
+  }
+  .wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-data table {
+    width: 50%;
+    float: left;
+  }
+  .wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-data table tr th {
+    width: 35%;
+  }
+  .wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-features ul {
+    float: left;
+  }
+  .wpcm_vehicle .wpcm-vehicle-content .wpcm-content-block#wpcm-vehicle-features ul li {
+    width: 50%;
+    float: left;
+  }
+}
